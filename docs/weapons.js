@@ -11,7 +11,7 @@ let techArray = [ // Duplicates mean 2x or 3x as likely to come up
 	/* TL5 */['Shear Rifle', 'Shear Rifle', 'Thunder Gun', 'Distortion Cannon']
 ]
 
-function generateItems () {
+function generateWeapons () {
 	let quantity = document.getElementById("qty").value;
 	let techLevel = parseInt(document.getElementById("tech").value);
 	
@@ -75,9 +75,6 @@ function generateItems () {
 			let element = document.getElementById('outputContainer');
 			element.appendChild(para);
 		}
-		
-		
 	}
-	
 	createElements(equipmentLogFinal);
 }

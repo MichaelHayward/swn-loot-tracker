@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link rel="icon" 
+      type="image/png" 
+      href="./gamepad.png">
+</head>
+<body>
+	<a href="index.html">Back</a>
+	<h1>Random Pharmaceuticals and Medical Gear Table</h1>
+	<h3>For <i>Stars Without Number</i></h3>
+	<input id="qty" type="number" min="1" value="3" placeholder="Qty"> </input>
+	
+	<select id="tech">
+		<!-- <option value="0">TL1</option>
+		<option value="1">TL2</option>
+		<option value="2">TL3</option> -->
+		<option value="3" selected="selected">TL4</option>
+		<option value="4">TL5</option>
+	</select>
+	
+	<button class="generateButton" onclick="generateMeds()">Generate</button>
+	
+	<a href="pharmaceuticals-gear.html"><button id="restart-button">Reset</button></a> <!-- reloads page -->
+	
+	<div id="outputContainer">
+		<p id="outputPlaceholder">No loot yet generated</p>
+	</div>
+	
+	<script src="./pharmaceuticals-gear.js"></script>
+</body>
+</html>
