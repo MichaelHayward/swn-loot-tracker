@@ -1,0 +1,18 @@
+body {
+	background: #1c1c1c;
+	font-family: Orbitron;
+	color: #efefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #928540;
+}
+
+a {
+	color: white;
+}
